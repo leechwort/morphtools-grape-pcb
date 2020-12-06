@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name pcm5102A)(type Legacy)(uri ${KIPRJMOD}/pcm5102A.lib)(options "")(descr ""))
+  (lib (name ursae)(type Legacy)(uri ${KIPRJMOD}/ursae.lib)(options "")(descr ""))
 )
