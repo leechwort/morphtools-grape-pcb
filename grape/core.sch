@@ -818,17 +818,6 @@ F 3 "~" H 10300 5000 50  0001 C CNN
 	1    10300 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D33
-U 1 1 5FCD28F6
-P 10700 5100
-F 0 "D33" H 10693 5317 50  0000 C CNN
-F 1 "LED" H 10693 5226 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 10700 5100 50  0001 C CNN
-F 3 "~" H 10700 5100 50  0001 C CNN
-	1    10700 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 1900 9700 1900
 Wire Wire Line
@@ -893,10 +882,6 @@ Wire Wire Line
 	9500 4900 9700 4900
 Wire Wire Line
 	9500 5000 10150 5000
-Wire Wire Line
-	9500 5100 10550 5100
-Wire Wire Line
-	10850 5100 10850 5000
 Wire Wire Line
 	10850 1900 10000 1900
 Connection ~ 10850 2100
@@ -1031,7 +1016,6 @@ Wire Wire Line
 	10850 4900 10850 4800
 Wire Wire Line
 	10450 5000 10850 5000
-Connection ~ 10850 5000
 Wire Wire Line
 	10850 5000 10850 4900
 NoConn ~ 9500 5200
@@ -1496,4 +1480,5 @@ F 3 "~" H 900 1600 50  0001 C CNN
 	1    900  1600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9500 5100
 $EndSCHEMATC
